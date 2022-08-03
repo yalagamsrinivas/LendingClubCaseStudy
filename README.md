@@ -1,52 +1,47 @@
-# Project Name
-> Outline a brief description of your project.
+"# LendingClubCaseStudy" 
+- Brief description of the project:
+- The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Lending Club made money by charging borrowers an origination fee and investors a service fee.
+- To analyze how consumer attributes and loan attributes influence the tendency of default.
+- To identify patterns which indicate if a person is likely to default.
+- To provide suggestions and recommendations on actions to be taken against risky applications.
+- We used Lending club case study loan dataset.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The applicants taking a loan for "Small businesses" or "Renewable Energy" purpose often fail to pay back the loan. But increasing the interest rates may discourage general public from taking up this professions hence a more in depth research into the specific pain areas can be done. Special loan clauses might be designed for these applicants.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- For loan amount asks above 16000, the funded amount must be cautiously checked and a lesser amount might be funded with a higher interest rate. The applicants categorized in Grade F & G and accompanying subgrades should be handled with special care. Considering the other contributing factors the company needs to decide whether to increase the interest rates or decrease the funding.
+
+- Applicants with "OTHER" as home ownership status may be funded lesser than their ask as the tendency to get written off is more in this group.
+
+- The analysis found that Verification Status of the applicant doesn't contribute much to his chance of getting charged off. Hence the loan granting company needs to carefully analyze if the man hours and cost impact incurred due to this verification_status justified for the business.
+
+- While analysis dti groups with the Interest rate groups, it is notable that the combination of higher dti with higher interest rates groups are more tend to getting default. In this cases funding may be reduced for such applicants.
+
+
+- Applicants stating "Vacation" as Purpose and having experience on the higher side might be charged higher interest rates as they are more prone to default.
+
+
+- While granting the loan, keen attention needs to be paid, to the ratio between the total monthly loan installments and the monthly income of the applicant. The higher the ratio, the lower is the chance of getting the loan "Fully Paid". Hence, funded amount needs to be reduced in-order to keep this ratio low.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- pandas - version 1.2.4
+- numpy - version 1.20.1
+- seaborn - version 0.11.1
+- matplotlib - version 3.3.4
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by Upgrad(IIITB) case study
+- This project was based on https://www.lendingclub.com/
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@yalagamsrinivas] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->"# LendingClubCaseStudy" 
