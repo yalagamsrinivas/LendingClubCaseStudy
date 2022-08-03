@@ -43,5 +43,5 @@ Give credit here.
 
 
 ## Contact
-Created by [@yalagamsrinivas] - feel free to contact me!
+Created by [@Satyajit-Chaudhuri] - feel free to contact me!
 
